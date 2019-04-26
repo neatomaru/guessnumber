@@ -19,7 +19,7 @@ int main() {
 
 
 
-    for(int i = 0; i < 8; ++i) {
+    for(int i = 0; i < 7; ++i) {
         if (numbers.size() % 2 != 0) {
             guess = numbers[numbers.size() / 2];
             index = numbers.size() / 2;
